@@ -1,11 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-04T23:15:55 PST" name="TestNgMavenExampleSuite" finished-at="2019-12-04T23:15:55 PST" duration-ms="8">
+  <suite name="Default suite" duration-ms="46318" started-at="2019-12-06T23:01:43 PST" finished-at="2019-12-06T23:02:29 PST">
     <groups>
     </groups>
-    <test started-at="2019-12-04T23:15:55 PST" name="TestNgMavenTest" finished-at="2019-12-04T23:15:55 PST" duration-ms="8">
-    </test> <!-- TestNgMavenTest -->
-  </suite> <!-- TestNgMavenExampleSuite -->
+    <test name="Default test" duration-ms="46318" started-at="2019-12-06T23:01:43 PST" finished-at="2019-12-06T23:02:29 PST">
+      <class name="SFDCMaven.SFDCMaven.SFDC_Login">
+        <test-method status="PASS" signature="Extent_Reports()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="Extent_Reports" is-config="true" duration-ms="101" started-at="2019-12-06T23:01:43 PST" finished-at="2019-12-06T23:01:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent_Reports -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="setup" is-config="true" duration-ms="6387" started-at="2019-12-06T23:01:43 PST" finished-at="2019-12-06T23:01:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NoPassword_Error_Message()[pri:1, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="NoPassword_Error_Message" duration-ms="1284" started-at="2019-12-06T23:01:49 PST" finished-at="2019-12-06T23:01:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoPassword_Error_Message -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="teardown" is-config="true" duration-ms="668" started-at="2019-12-06T23:01:51 PST" finished-at="2019-12-06T23:01:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="setup" is-config="true" duration-ms="5813" started-at="2019-12-06T23:01:51 PST" finished-at="2019-12-06T23:01:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login_Home_Page()[pri:2, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="Login_Home_Page" duration-ms="4772" started-at="2019-12-06T23:01:57 PST" finished-at="2019-12-06T23:02:02 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Home_Page -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="teardown" is-config="true" duration-ms="638" started-at="2019-12-06T23:02:02 PST" finished-at="2019-12-06T23:02:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="setup" is-config="true" duration-ms="5696" started-at="2019-12-06T23:02:03 PST" finished-at="2019-12-06T23:02:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Remember_Me_Checkbox()[pri:3, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="Remember_Me_Checkbox" duration-ms="6263" started-at="2019-12-06T23:02:08 PST" finished-at="2019-12-06T23:02:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remember_Me_Checkbox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="teardown" is-config="true" duration-ms="624" started-at="2019-12-06T23:02:14 PST" finished-at="2019-12-06T23:02:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="setup" is-config="true" duration-ms="5623" started-at="2019-12-06T23:02:15 PST" finished-at="2019-12-06T23:02:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Forgot_Password()[pri:4, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="Forgot_Password" duration-ms="732" started-at="2019-12-06T23:02:21 PST" finished-at="2019-12-06T23:02:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot_Password -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="teardown" is-config="true" duration-ms="584" started-at="2019-12-06T23:02:21 PST" finished-at="2019-12-06T23:02:22 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="setup" is-config="true" duration-ms="5526" started-at="2019-12-06T23:02:22 PST" finished-at="2019-12-06T23:02:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login_Error_Message()[pri:4, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="Login_Error_Message" duration-ms="751" started-at="2019-12-06T23:02:28 PST" finished-at="2019-12-06T23:02:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Error_Message -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="teardown" is-config="true" duration-ms="621" started-at="2019-12-06T23:02:28 PST" finished-at="2019-12-06T23:02:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Extent_Reports_teardown()[pri:0, instance:SFDCMaven.SFDCMaven.SFDC_Login@4973813a]" name="Extent_Reports_teardown" is-config="true" duration-ms="189" started-at="2019-12-06T23:02:29 PST" finished-at="2019-12-06T23:02:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent_Reports_teardown -->
+      </class> <!-- SFDCMaven.SFDCMaven.SFDC_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
